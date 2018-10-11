@@ -21,6 +21,7 @@ export default (state = initialState, action) => {
         let feedback, guess;
 
         guess = parseInt(action.guess, 10);
+        console.log(state.correctAnswer);
         if (isNaN(guess)) {
             feedback = 'Please enter a valid number.';
 

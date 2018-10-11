@@ -6,6 +6,7 @@ import StatusSection from './status-section';
 import InfoSection from './info-section';
 
 export default function Game(props) {
+  console.log(props.correctAnswer);
   return (
     <div>
       <Header />
@@ -17,3 +18,4 @@ export default function Game(props) {
     </div>
   );
 }
+
